@@ -10,7 +10,7 @@
 ```
 cd htdocs
 cd blog
-composer update
+composer install
 ```
 Generisanje migracija:
 ```
