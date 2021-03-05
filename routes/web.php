@@ -28,3 +28,16 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth
     Route::resource('/comments', 'CommentController', ['only' => ['index', 'destroy']]);
     Route::resource('/users', 'UserController', ['middleware' => 'admin', 'only' => ['index', 'destroy']]);
 });
+
+Route::view('/vjezbe/playground-blade', 'vjezbe/playground-blade');
+Route::view('/vjezbe/playground-php', 'vjezbe/playground-php');
+Route::view('/vjezbe/playground-html', 'vjezbe/playground-html');
+Route::view('/vjezbe/zadatak-0', 'vjezbe/zadatak-0');
+Route::view('/vjezbe/zadatak-1', 'vjezbe/zadatak-1');
+Route::view('/vjezbe/zadatak-1-rjesenje', 'vjezbe/zadatak-1-rjesenje');
+Route::view('/vjezbe/zadatak-2', 'vjezbe/zadatak-2');
+Route::view('/vjezbe/zadatak-2-rjesenje', 'vjezbe/zadatak-2-rjesenje');
+Route::view('/vjezbe/zadatak-3', 'vjezbe/zadatak-3');
+Route::view('/vjezbe/zadatak-3-rjesenje', 'vjezbe/zadatak-3-rjesenje');
+Route::view('/vjezbe/zadatak-4', 'vjezbe/zadatak-4');
+Route::view('/vjezbe/zadatak-4-rjesenje', 'vjezbe/zadatak-4-rjesenje');
