@@ -21,7 +21,7 @@ You can try the live demo : [http://gentle-everglades-40337.herokuapp.com/](http
 
 ## Demo login info
 
-user: contact@milon.im | password: password
+user: admin@admin.com | password: password
 
 
 ## Installation
