@@ -41,3 +41,8 @@ Route::view('/vjezbe/zadatak-3', 'vjezbe/zadatak-3');
 Route::view('/vjezbe/zadatak-3-rjesenje', 'vjezbe/zadatak-3-rjesenje');
 Route::view('/vjezbe/zadatak-4', 'vjezbe/zadatak-4');
 Route::view('/vjezbe/zadatak-4-rjesenje', 'vjezbe/zadatak-4-rjesenje');
+
+Route::get('/statistika', 'StatisticsController@get_statistics');
+Route::get('/statistika/korisnici', 'StatisticsController@get_user_statistics');
+Route::get('/statistika/kategorije', 'StatisticsController@get_category_statistics');
+Route::get('/statistika/komentari', 'StatisticsController@get_comments_statistics');
